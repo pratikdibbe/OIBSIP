@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="box">
+        <div style="color:#03a9f4;width:100%;font-size: 20px;font-weight:bold;">
+            <h3 style="margin-bottom:0px;">Temperature Converter</h3>
+            <img src="signs.png" alt="" style="width: 95px; height: 89px;">
+        </div>
+        <div>
+            <p id="text">Enter the temperature in Degree Celcius to convert in Fahrenheit and Kelvin</p>
+        </div>
+
+        <form>
+            <br>
+            <label for="celcius">Degree Celcius (°C)</label>
+            <input type="number" placeholder="Celcius" id="cel" oninput="celcius(this.value)"> <br><br>
+            <label for="Fahrenheit">Fahrenheit (F) </label>
+            <input type="number" placeholder="Fahrenheit" id="fh"> <br><br>
+            <label for="Kelvin">Kelvin (K)</label>
+            <input type="number" placeholder="Kelvin" id="kl">
+        </form>
+
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
