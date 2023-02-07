@@ -1,0 +1,365 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    text-decoration: none;
+    font-family: 'Mulish', sans-serif;
+
+}
+.main{
+    border: 2px solid black;
+    height: 315vh;
+    width: 100vw;
+
+}
+.firstdiv{
+    height: 100vw;
+    height: 94vh;
+}
+
+.twobox{
+    height: 59vh;
+    display: flex;
+}
+.photobox{
+    display: inline-block;
+    height: 59vh;
+    width: 99vh;
+
+}
+.infobox{
+    display: inline-block;
+    height: 59vh;
+    width: 80vh;
+}
+.servicebox{
+    height: 85vh;
+    margin-top: 13vh;
+}
+.service{
+    text-align: center;
+    padding-top: 19px;
+    padding-bottom: 17px;
+    /* background-color: black;
+    color: white; */
+
+}
+.serviceheading{
+    font-size: 27px;
+}
+.threebox{
+    height: 76vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #bcccbe30;
+}
+.box1{
+    
+    display: inline-block;
+    height: 319px;
+    width: 260px;
+    padding-bottom: 49vh;
+    background-color: white;
+   border-radius: 33px;
+   margin: 35px;
+
+ 
+
+
+    /* background-color: #241532;
+    border-radius: 60px;
+    color: white;
+    box-shadow: 10px 10px 15px rgb(18 20 22) */
+}
+.box1:hover{
+    background-color: #454545;
+    color: white;
+   border-radius: 33px;
+   transition-property: /* background-color,width,height,border-radius  OR */  all ;
+                                     
+   transition-duration: 1s;  /*  1s/2s/3s/4s/etc */ 
+
+  transition-timing-function:ease ;
+
+}
+.infobox{
+    height: 31vh;
+    width: 32vw;
+    
+    margin-left:222px;
+    margin-top: 112px;
+}
+
+.list{
+    list-style: none;
+    /* margin-left: 66px; */
+    font-size: 22px;
+    margin: 1px 35px;
+    padding: 20px 20px;
+    
+}
+
+.navbar{
+   display: flex;
+   justify-content: center;
+   height: 84px;
+   align-items: center;
+
+   
+
+}
+#home12{
+    border: 2px solid blue;
+    padding:10px 18px ;
+    border-radius: 18px;
+    color: rgb(229, 229, 245);
+    background-color: blue;
+    border: none;
+}
+/* .list:hover{
+    border: 2px solid blue;
+    padding:10px 18px ;
+    border-radius: 18px;
+    color: rgb(229, 229, 245);
+    background-color: blue;
+    border: none;
+    transition-property: all;
+    transition-duration:0.7s;
+    transition-timing-function: ease;
+
+} */
+#imgman{
+    width: 58vw;
+    height: 90vh;
+}
+.boxheading1{
+    margin-top: 20px;
+    font-size: 36px;
+    font-weight: 100;
+}
+.boxheading2{
+    margin-top: 20px;
+    font-size: 40px;
+
+}
+.para{
+    margin-top: 20px;
+    font-size: 22px;
+
+}
+.button{
+    margin-top: 20px;
+}
+.btn{
+    padding: 13px 35px;
+    background-color: blue;
+    border-radius: 24px;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 16px 32px;
+}
+    
+
+.webdev{
+    text-align: center;
+    padding-top: 5px;
+    padding: 23px 5px;
+}
+.photobox{
+    border-radius: 20px;
+}
+.webdevimg{
+    height: 140px;
+    width: 149px;
+    margin-top: 6px;
+    margin-left: 76px;
+}
+.appdevimg{
+    height: 140px ;
+    width: 149px;
+    margin-top: 6px;
+    margin-left: 85px;
+}
+.machinelearning{
+    height: 140px ;
+    width: 149px;
+    margin-top: 20px;
+    margin-left: 65px;
+}
+#imgman{
+    border-radius: 30px;
+}
+.thirddiv{
+    height: 55vh;
+    display: flex;
+    background-color: #0c102c;
+    color: white;
+}
+.div1{
+    height: 54vh;
+    width: 33vw;
+
+}
+.links{
+    text-align: center;
+    list-style: none;
+    font-size: 22px;
+    text-decoration: none;
+    margin-top: 6vh;
+}
+.div1heading{
+    text-align: center;
+}
+.div1list{
+    margin-top: 25px;
+}
+
+.emaildiv{
+    margin-top: 18vh;
+    margin-left: 5vw;
+}
+#email{
+    padding: 14px 114px;
+    font-size: 16px;
+    border-radius: 14px;
+    border: navajowhite;
+}
+.subscribe{
+    margin-left: 10vw;
+    margin-top: 4vh;
+}
+.btn2{
+    padding: 12px 43px;
+    border-radius: 12px;
+    margin-left: -6px;
+    border: none;
+    background-color: beige;
+    font-size: 15px;
+    font-weight: 600;
+}
+.home{
+    color: white;
+}
+.contact{
+    text-align: center;
+    height: 54vh;
+
+}
+.contactheading{
+    text-align: center;
+    margin-top: 8vh;
+    font-size: 31px;
+}
+.txt{
+    font-weight: 300;
+}
+.contactheading2{
+    margin-top: 25px;
+    font-size: 21px;
+}
+.socialm{
+    height: 35px;
+    width: 45px;
+    margin-top: 61px;
+    margin-left: 31px;
+}
+#img1{
+    height: 77px;
+    width: 103px;
+    margin-left: 74px;
+    margin-top: 6vh;
+    margin-bottom: 19px;
+}
+
+.imghead{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.imgpara{
+    text-align: center;
+}
+#img2{
+    height: 77px;
+    width: 103px;
+    margin-left: 74px;
+    margin-top: 6vh;
+    margin-bottom: 19px;
+}
+#img3{
+    height: 77px;
+    width: 103px;
+    margin-left: 74px;
+    margin-top: 6vh;
+    margin-bottom: 19px;
+}
+#img4{
+    height: 77px;
+    width: 103px;
+    margin-left: 74px;
+    margin-top: 6vh;
+    margin-bottom: 19px;
+}
+.thirddiv3{
+    height: 58vh;
+    display: flex;
+    margin-top: 10vh;
+}
+.thirddivbox1{
+    height: 54vh;
+    display: inline-block;
+    width: 48vw;
+    background-color: #bcccbe30;
+
+
+}
+.thirddivbox2{
+    height: 54vh;
+    display: inline-block;
+    width: 47vw;
+    margin-left: 4vw;
+    background-color: #bcccbe30;
+    /* border-radius: 76px; */
+    
+
+}
+.profile{
+    width: 48vh;
+    height: 45vh;
+    border-radius: 65px;
+    
+    margin-left: 13vw;
+    margin-top: 4vh;
+}
+.profile:hover{
+    /* box-shadow: 3px 2px 12px #d0afaf; */
+    background-color: white;
+    transition-property: /* background-color,width,height,border-radius  OR */  all ;
+                                     
+    transition-duration: 1s;  /*  1s/2s/3s/4s/etc */ 
+ 
+   transition-timing-function:ease ;
+}
+
+.divbar{
+    width: 74vh;
+    margin-top: 7vh;
+    margin-left: 3vw;
+    font-size: 22px;
+}
+.profileheading{
+    text-align: center;
+    padding-top:12px ;
+    padding-bottom: 24px;
+    color: blue;
+}
+.para3{
+    line-height: 36px;
+    color: currentColor;
+}
+#having{
+    line-height: 35px;
+}
